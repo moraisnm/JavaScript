@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation JavaScript Homepage</title>
+</head>
+<body>
+    <script src="scriptEcommerceHomepage.js"></script>
+</body>
+<style>
+    .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .product-item {
+        border: 1px solid #ccc;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+    }
+    .product-item img {
+        max-width: 100%;
+        height: auto;
+    }
+    .product-item button {
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .product-item button:hover {
+        background-color: #218838;
+    }
+</style>
+<h1>Produtos Disponiveis</h1>
+<div id="product-grid" class="product-grid"></div>
+</html>
