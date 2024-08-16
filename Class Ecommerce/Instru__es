@@ -1,0 +1,19 @@
+Criar um ficheiro html com uma tag script;
+- Criar uma class chamada Ecommerce;
+- Criar os seguintes métodos para a class:
+○ addProduct: aceita um produto e o adicione à lista de produtos;
+○ setProductPrice:
+■ Aceita 2 parametros: productId e price;
+■ Deve actualizar o produto com o preço novo.
+○ getAllProducts: devolve a lista de todos os produtos;
+○ getAllProductsNames: devolve uma string com todos os nomes dos produtos, separados por ponto e virgula “;” ;
+○ getProductById: aceita um id de produto e devolve esse mesmo produto;
+○ getProductByName: aceita um nome de produto e devolve esse mesmo produto;
+○ getProductsByPrice:
+■ aceita 2 parametros: initialPrice e finalPrice
+■ Devolve os produtos que sejam iguais ou superiors a initialPrice e menores ou igual a finalPrice;
+○ addProductToCart: aceita um produto e adiciona esse produto ao carrinho de compras;
+○ getCart: devolve a lista de produtos do carrinho de compras;
+○ getCartTotalPrice: devolve a soma de todos os produtos do carrinho;
+- Um produto é composto pelos campos: name, price, id;
+- O carrinho de compras é um array de produtos;
